@@ -219,7 +219,6 @@
             } else {
                 let lastName = findStudentByLastName(location.hash.slice(1));
                 if (lastName) {
-                    renderStudents(students)
                     renderStudentInfo(lastName);
                 } else {
                     clearStudentsList();
